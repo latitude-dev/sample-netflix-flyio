@@ -4,7 +4,6 @@
 #
 
 app = "netflix-sample"
-primary_region = "mad"
 
 [http_service]
   internal_port = 3000
