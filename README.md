@@ -1,4 +1,4 @@
-# Netflix sample project
+# Fly.io sample project
 
 This is a project showcasing how to deploy a Latitude Framework application to Fly.io. Latitude provides a set of tools to help developers build data apps on top of any database or data warehouse using just SQL and HTML.
 
