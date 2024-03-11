@@ -1,7 +1,12 @@
 # Netflix sample project
 
-This is a project showcasing how to use the Latitude Framework and deploy it to Fly.io. Latitude provides a set of tools to help developers build data apps on top of any database or data warehouse using just SQL and HTML.
+This is a project showcasing how to deploy a Latitude Framework application to Fly.io. Latitude provides a set of tools to help developers build data apps on top of any database or data warehouse using just SQL and HTML.
 
+## Demo
+
+You can find a live demo of this project at the following URL: [Live Demo →](https://latitude.so/app/share/b592cd31-1c22-40b1-bd6c-e440d98a0ac6)
+
+![image](https://github.com/latitude-dev/latitude-sdk-sample/assets/5465249/371f8e34-dbe5-4684-b684-64022cb1b38b)
 
 ## Developing
 
@@ -16,7 +21,7 @@ latitude dev
 ```
 This will start the server in development mode, and you can access the application at `http://localhost:3000`.
 
-## Deploying
+## Deploying to production
 To deploy to Fly.io we need to first install the Fly.io command line tool. You can do this by running the following command:
 
 ```
