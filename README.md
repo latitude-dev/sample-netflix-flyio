@@ -40,7 +40,7 @@ Fly will detect the Dockerfile and Fly.io configuration included in this project
 fly deploy
 ```
 
-See more details on how to deploy to Fly.io in the [official documentation](https://fly.io/docs/getting-started/first-deploy/).
+See more details on the fly.toml configuration file in the [official documentation](https://fly.io/docs/reference/configuration/).
 
 ## Documentation
 
