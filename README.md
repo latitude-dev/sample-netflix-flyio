@@ -46,6 +46,15 @@ Fly.io works with docker containers and automatically builds and deploys your ap
 
 For additional configuration options, refer to the [Fly.io Configuration Documentation](https://fly.io/docs/reference/configuration/).
 
+## Adding secrets
+If the project requires the use of secret credentials you can declare them like so:
+
+```bash
+fly secrets set LATITUDE__DATABASE_PASSWORD=mypassword
+```
+
+This command will make the secret available as an environment variable to the production build at runtime. [Read here](https://docs.latitude.so/sources/credentials) how to use environment variables in Latitude projects.
+
 ## Documentation
 
 To find more about how to deploy Latitude to your own infrastructure, refer to the [documentation](https://docs.latitude.so/guides/deploy/self-hosted).
