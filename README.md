@@ -28,21 +28,10 @@ During this process, Fly automatically recognizes the Dockerfile and Fly.io conf
 
 ### Deploy the Application 
 
-Fly.io works with docker containers and automatically builds and deploys your application. Hopefully, Latitude provides tools to build a docker container with your application. Here's how to do it:
-
-1. First, prepare your project for deployment by running the following command.
-
-   ```bash
-   latitude prepare
-   ```
-    This command runs some preconfiguration steps required in order to properly build the docker container.
-
-2. Now you can deploy your application to Fly.io by running the following command:
-
-   ```bash
-    fly deploy
-   ```
-    And that's it! Your application is now deployed to Fly.io.
+```bash
+fly deploy
+```
+And that's it! Your application is now deployed to Fly.io.
 
 For additional configuration options, refer to the [Fly.io Configuration Documentation](https://fly.io/docs/reference/configuration/).
 
