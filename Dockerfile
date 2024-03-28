@@ -6,7 +6,6 @@ FROM builder AS runner
 
 WORKDIR /usr/src/app
 
-# copy folders queries and views into workdir
 COPY . .
 
 RUN latitude telemetry --disable
